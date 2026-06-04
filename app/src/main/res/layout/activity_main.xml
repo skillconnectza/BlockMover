@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📵 BlockMover"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transfer blocked numbers between Android phones"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/tvDialerStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checking..."
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnExport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📤  Export from this phone"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnImport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📥  Import to this phone"
+        style="@style/Widget.Material3.Button.OutlinedButton"/>
+
+</LinearLayout>

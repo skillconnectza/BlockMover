@@ -87,7 +87,7 @@ This software is licensed under a proprietary license for personal, non-commerci
 
 - **Default Dialer Permission:** Required to read and write blocked numbers (temporary)
 - **No Data Collection:** BlockMover does not collect, store, or transmit any personal data
-- **Offline Operation:** Works completely offline except when you choose to share the export file
+- **Offline Operation:** Works completely offline. Files are only shared when you explicitly choose to do so.
 
 ## Troubleshooting
 
